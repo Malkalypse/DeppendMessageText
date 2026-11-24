@@ -1,0 +1,43 @@
+
+
+  Hello, and thank you for your interest in Deppend! The message you are
+  reading was loaded from:
+
+  `/dependencies/DeppendMessageText/text.txt`
+
+  using:
+
+  `/dependencies/ShowDeppendMessage/show.py`.
+
+
+  "Where did these files come from?" you may wonder. I'm glad you asked!
+
+  Executing `deppend.sh` from `/deppend/example/` checked the `deps.txt` file
+  in that folder, which has the following contents:
+
+      ShowDeppendMessage
+
+  Therefore, Deppend downloaded the files from:
+
+  `https://github.com/Malkalypse/ShowDeppendMessage`
+
+  to:
+
+  `deppend/example/dependencies/ShowDeppendMessage`.
+
+  That repository contains a `deps.txt` file of its own, with the following
+  contents:
+
+      DeppendMessageText
+
+  So the files from:
+
+  `https://github.com/Malkalypse/DeppendMessageText`
+
+  were downloaded to:
+
+  `deppend/example/dependencies/DeppendMessageText`
+
+
+  Check out the README.md file in the root directory for further directions on
+  using Deppend!
